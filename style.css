@@ -1,0 +1,44 @@
+*{
+  box-sizing: border-box;
+}
+
+table{
+  border: 4px red solid;
+  width: calc(100%/4);
+}
+
+td,th{
+  text-align: center;
+  border: 1px blue solid;
+}
+
+caption span:first-child{
+  color:red ;
+  font-size: 24px;
+}
+
+caption span:last-child{
+  color:blueviolet;
+  font-size: 32px;
+}
+
+thead th{
+  background-color: antiquewhite;
+}
+
+tbody tr td:first-child{
+  background-color:aqua ;
+}
+
+tbody tr:nth-child(2n+1){
+  background-color:olive ;
+}
+
+tbody tr:nth-child(2n){
+  background-color:gainsboro ;
+}
+
+tfoot tr{
+  background-color:darksalmon;
+}
+
